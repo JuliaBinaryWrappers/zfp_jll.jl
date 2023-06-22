@@ -1,113 +1,143 @@
 [[zfp]]
 arch = "aarch64"
-git-tree-sha1 = "41dc2b70411d55501d0a839846d90bf0460493b0"
-libc = "glibc"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "5d3043ffe31ce694b7f997e79b074dda3ffe4db7df350b779fcec6311b79bdff"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.aarch64-linux-gnu.tar.gz"
-[[zfp]]
-arch = "aarch64"
-git-tree-sha1 = "31c122f0a3141d67264c9cad19681124561202b1"
-libc = "musl"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "035d71acc6b7867fceeb25d758cd690a281551625a9af2b46498488b4b849785"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.aarch64-linux-musl.tar.gz"
-[[zfp]]
-arch = "armv7l"
-git-tree-sha1 = "421907463a621db05548ab4325ae13b92d0856b7"
-libc = "glibc"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "f111111e6487032eb7b7ee75f5e3ebc33a12609f2fb86a7813c5e55b973a2e41"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.armv7l-linux-gnueabihf.tar.gz"
-[[zfp]]
-arch = "armv7l"
-git-tree-sha1 = "df3b5872fc5041c14dd3fdb9234dcd98ac63f855"
-libc = "musl"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "58c6a409b36e94d74c6925cee5a21f82eaca3d797ec7f151fc926a77cb865636"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.armv7l-linux-musleabihf.tar.gz"
-[[zfp]]
-arch = "i686"
-git-tree-sha1 = "04b85a52d50b2773fa52d91a26898919192ef3dd"
-libc = "glibc"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "691a7739dced872d38038700c5d01b19778808abe904c5d18444665c21891e87"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.i686-linux-gnu.tar.gz"
-[[zfp]]
-arch = "i686"
-git-tree-sha1 = "8ee1f05a02674212b0dbd746dc5e920ca267dbb4"
-libc = "musl"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "24464714c3118a507d88c674d008a4f66c4c1e907f657b0fa5ecb1f803cd98ea"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.i686-linux-musl.tar.gz"
-[[zfp]]
-arch = "i686"
-git-tree-sha1 = "2eef834e03d81ff56f1135a3c3de0d46e03f783c"
-os = "windows"
-
-    [[zfp.download]]
-    sha256 = "fa7c5fab2b9476c4587049f1513319f6a4d6998ded4fb755aa1ecf4c873b6846"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.i686-w64-mingw32.tar.gz"
-[[zfp]]
-arch = "powerpc64le"
-git-tree-sha1 = "61277fa0753fa984ba73f8ef971b4c40c588cc55"
-libc = "glibc"
-os = "linux"
-
-    [[zfp.download]]
-    sha256 = "f2bbc0379696f66fb4e636d7f160379f8a2eb43c5516c1b990b696f54c767fca"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.powerpc64le-linux-gnu.tar.gz"
-[[zfp]]
-arch = "x86_64"
-git-tree-sha1 = "6ff6365c1fea161f3a267eea93955ac87ceaf15e"
+git-tree-sha1 = "8e73d78e119d25ec3f5bcebbaed55e4ae2906f9e"
 os = "macos"
 
     [[zfp.download]]
-    sha256 = "37a336e9bf3c66dcd10eecfaee265e4ba64a11fc7a578caa654d05709c8b8b35"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.x86_64-apple-darwin14.tar.gz"
+    sha256 = "e1875125629e6307d2c76815c425678c048e7dbd9edfddd7b3a77ed9810deb97"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.aarch64-apple-darwin.tar.gz"
 [[zfp]]
-arch = "x86_64"
-git-tree-sha1 = "c082dfba893619e3a6ba4f9e2a63b6ab75a72b3d"
+arch = "aarch64"
+git-tree-sha1 = "8c3e66756448101a13b31d195beae90ab45e69c2"
 libc = "glibc"
 os = "linux"
 
     [[zfp.download]]
-    sha256 = "3ccddcb0b505bd7d88252de8a81b1d3dfcac7b050571548d25a7aa8e7c261163"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.x86_64-linux-gnu.tar.gz"
+    sha256 = "3d1365537200e4ff08fbe23fe60797a0489c2c4040e23936979274317aaf89a2"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.aarch64-linux-gnu.tar.gz"
 [[zfp]]
-arch = "x86_64"
-git-tree-sha1 = "0fc0379bdbb1166b11aae21a1a7a2d7740897a31"
+arch = "aarch64"
+git-tree-sha1 = "3d2bdde34e4bb318cef4f3441f8d6c7b3efccec2"
 libc = "musl"
 os = "linux"
 
     [[zfp.download]]
-    sha256 = "31b72d786061e02af15037d7bf83347808558e429589a5bf57ba72272d3ffd47"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.x86_64-linux-musl.tar.gz"
+    sha256 = "dd95d8a19876b8511f6d2343788a54e1a262c8e02af0cbc15d25c2cf103f51a1"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.aarch64-linux-musl.tar.gz"
 [[zfp]]
-arch = "x86_64"
-git-tree-sha1 = "56c2a08d05f32af7ea0f8dbc09c551968e4753ab"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "91244c92ee4c979a218ee190a9f36a5c72afd993"
+libc = "glibc"
+os = "linux"
 
     [[zfp.download]]
-    sha256 = "76e478c831f9a3e187da80595bdeafc8d895cd1a114d13dc5281447a831d43c4"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "79220c8dea54f02586eee818cd4e77b3b87d9e7f14b3f370948dd0dc054a4bae"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.armv6l-linux-gnueabihf.tar.gz"
 [[zfp]]
-arch = "x86_64"
-git-tree-sha1 = "bff491e314c1aaeb7e0baf47e1a022931efeb9b4"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e961b6c32e59bae7f4a934614a3d569fbe7de1f1"
+libc = "musl"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "be71ceadb47bc538aba944a28eeccf9a8aa307079ebee0b7115adeea28b9a206"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.armv6l-linux-musleabihf.tar.gz"
+[[zfp]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "408bbefe70adb9b07a15ab742fb21276a6c572e1"
+libc = "glibc"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "8d301f97212b6a46d86eea384e302daeb660525fccd87f0c974a977ebd1c559c"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[zfp]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "724c0e8a8391df435927cac6c07615f6d67c5105"
+libc = "musl"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "93549d0cd5c4dd340e65689b49c385ba758b2997970709d4c173d468fcb6da93"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.armv7l-linux-musleabihf.tar.gz"
+[[zfp]]
+arch = "i686"
+git-tree-sha1 = "8f24aedab5d08b691a60a05232e064acbb7e5a7a"
+libc = "glibc"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "5a4943b726930e47cba7e3f73863c992143f96ecfc14707454d3d7fa46e2588a"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.i686-linux-gnu.tar.gz"
+[[zfp]]
+arch = "i686"
+git-tree-sha1 = "36cd81b6ae8371eaa3076e7ba665c3fc2039e2f7"
+libc = "musl"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "6d322f2cd2e6acc8e95776e9d8a2cc4908508d2f3ea9fe10a31ffbaeff4cff15"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.i686-linux-musl.tar.gz"
+[[zfp]]
+arch = "i686"
+git-tree-sha1 = "b58ae1d870e5c332a76bd759515d0487923f5b18"
 os = "windows"
 
     [[zfp.download]]
-    sha256 = "e62233ed17e44e36123a42a7ffd17ace3be499b45bc100a7c0abc922f587a150"
-    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v0.5.5+0/zfp.v0.5.5.x86_64-w64-mingw32.tar.gz"
+    sha256 = "fccfbc3209d32fa49e01dc49bb2c0f24f91a7dca36463cddbfdfe2417510dc64"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.i686-w64-mingw32.tar.gz"
+[[zfp]]
+arch = "powerpc64le"
+git-tree-sha1 = "f638248dd5014e258c9f86bae19af2a2d0e2ea28"
+libc = "glibc"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "0c20c00b87a5c1300fd7858dc29c790669ba682d8de51622a5fb0ce10e3db7fe"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.powerpc64le-linux-gnu.tar.gz"
+[[zfp]]
+arch = "x86_64"
+git-tree-sha1 = "adcdbb4673a28f4f0b2a032f2da5cff18538a24b"
+os = "macos"
+
+    [[zfp.download]]
+    sha256 = "aea357f556207cb14f9a9b5fe39fd37388a25e3f0aead350ca903b81d769b525"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.x86_64-apple-darwin.tar.gz"
+[[zfp]]
+arch = "x86_64"
+git-tree-sha1 = "51fe1b2b0773c2b9f138e48bc2165422fccb306d"
+libc = "glibc"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "852cd941a76c68eb44f5bc5b270149d62cd4691af5bf1e366a0bbcdc14f4435f"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.x86_64-linux-gnu.tar.gz"
+[[zfp]]
+arch = "x86_64"
+git-tree-sha1 = "a463f9055290a730374c3d85ce563dbce51918b8"
+libc = "musl"
+os = "linux"
+
+    [[zfp.download]]
+    sha256 = "33f0a457bf71913f923e5bb94355513f2d41e82290a1d2a4a9fdabe951c90176"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.x86_64-linux-musl.tar.gz"
+[[zfp]]
+arch = "x86_64"
+git-tree-sha1 = "d52aeaee8ebfb2787df5251b01125002b65cf28f"
+os = "freebsd"
+
+    [[zfp.download]]
+    sha256 = "74444bfc8b61be82d1d8d7105b52802c37962607c36e0189e7143df7b7a38d97"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.x86_64-unknown-freebsd.tar.gz"
+[[zfp]]
+arch = "x86_64"
+git-tree-sha1 = "776c9a04c7339d5079af75f4c0c422343c894271"
+os = "windows"
+
+    [[zfp.download]]
+    sha256 = "d4a3c507b1d1b3cfbe17ab210fe634f92fa6b2e514ecf77cf360bb38327cf958"
+    url = "https://github.com/JuliaBinaryWrappers/zfp_jll.jl/releases/download/zfp-v1.0.0+0/zfp.v1.0.0.x86_64-w64-mingw32.tar.gz"
